@@ -27,7 +27,11 @@ After selecting and cleaning the data, a target feature was to be constructed wh
 
 It is apparent that there was a significant imbalance across the three classes. 
 This issue can be addressed using resampling methods, most often over- or under-sampling. 
-At this point, I removed 30% of the observations to hold as a testing dataset. This was to ensure consistency across future experiments. I then carried out random oversampling, random under-sampling, SMOTE oversampling and combined over and under-sampling on the training data and assessed the performance of ML models (Decision Tree, Random Forest Classifier, XGBoost, Catboost and LightGBM) against this data. Although the results indicated that the improvement from resampling was modest, the best performance was with the dataset that had been subject to SMOTE oversampling. Therefore, this dataset was utilised for the next step in the project. 
+At this point, I removed 30% of the observations to hold as a testing dataset. This was to ensure consistency across future experiments. 
+
+Data to be found in: https://github.com/KarolMc/msc_dissertation/tree/main/data  
+
+I then carried out random oversampling, random under-sampling, SMOTE oversampling and combined over and under-sampling on the training data and assessed the performance of ML models (Decision Tree, Random Forest Classifier, XGBoost, Catboost and LightGBM) against this data. Although the results indicated that the improvement from resampling was modest, the best performance was with the dataset that had been subject to SMOTE oversampling. Therefore, this dataset was utilised for the next step in the project. 
 
 5.	Dimensionality reduction and feature selection: https://github.com/KarolMc/msc_dissertation/blob/main/feature_selection.ipynb  
 
@@ -72,4 +76,6 @@ Comparing performance with the reduced dataset against several untuned models:
 Light GBM: https://github.com/KarolMc/msc_dissertation/blob/main/explaining_lgbm.ipynb
 
 TabNet: https://github.com/KarolMc/msc_dissertation/blob/main/explaining_tabnet.ipynb
+
+All graphics and images can be found in: https://github.com/KarolMc/msc_dissertation/tree/main/images
 
